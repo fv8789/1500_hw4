@@ -1,0 +1,4 @@
+#Use \n for new line and \t for indentation 
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world soo high, \n\n\t\tLike a diamonod in the sky. \nTwinkle, twinkle, little star \n\tHow I wonder what you are!")
+
+

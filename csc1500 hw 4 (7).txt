@@ -1,0 +1,13 @@
+import random
+#
+DinnerGuests = []
+Dates = []
+tags = ["small tag", "big tag"]
+for i in range (4):
+    x = input("Enter Guest name: ")
+    y = input("Enter date: ")
+    DinnerGuests.append(x)
+    Dates.append(y)
+for u in range (4):
+    print ( DinnerGuests[u], " ", Dates[u])
+    print (DinnerGuests[u], "goes on a ",random.choice(tags),"\n")

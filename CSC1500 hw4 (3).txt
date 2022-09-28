@@ -1,0 +1,6 @@
+#Get input then just pi*r^2 for area
+import math
+i = float (input("Enter radius: "))
+print("r = ", i)
+a = math.pi * (i*i)
+print("Area = ",a)

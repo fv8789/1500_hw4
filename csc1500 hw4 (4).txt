@@ -1,0 +1,8 @@
+#Create a list of vowels then if statment to check if input is a vowel
+Vowels = ['a','e','i','o','u']
+u = input("Enter letter ").lower()
+if u in Vowels:
+    print("Letter is a vowel")
+else:
+    print("Letter is not a vowel")
+    
